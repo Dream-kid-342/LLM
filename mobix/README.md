@@ -27,6 +27,32 @@ Mobix is a conceptual framework and sample code for converting architectural dra
 pip install -r requirements.txt
 ```
 
+## How to Run
+
+1. **Clone or download this repository.**
+2. **(Optional) Create and activate a virtual environment:**
+   ```bash
+   python -m venv env
+   # On Windows:
+   env\Scripts\activate
+   # On Linux/Mac:
+   source env/bin/activate
+   ```
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **Navigate to the project directory:**
+   ```bash
+   cd mobix
+   ```
+5. **Run the notebook or Python scripts:**
+   - To start the notebook:
+     ```bash
+     jupyter notebook app.ipynb
+     ```
+   - Or run your Python code as needed.
+
 ## Example Usage
 
 ```python
