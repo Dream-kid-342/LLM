@@ -1,0 +1,3 @@
+# Ignore the GitHub simulation folder and environment files
+GitHub/
+.env

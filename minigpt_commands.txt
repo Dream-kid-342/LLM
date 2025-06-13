@@ -1,0 +1,77 @@
+MiniGPT Supported Commands
+=========================
+
+1. open <app>
+   - Opens the specified application if found on your system.
+   - Example: open notepad
+
+2. close <app>
+   - Attempts to close the specified application by process name.
+   - Example: close notepad
+
+3. write <content> on a file called <filename>
+   write <content> to file <filename>
+   write <content> in file <filename>
+   - Writes the specified content to the given file (any text file extension).
+   - Example: write hello world on a file called notes.txt
+
+4. create file <filename>
+   - Creates an empty file with the given name.
+   - Example: create file report.md
+
+5. destroy file <filename>
+   - Deletes the specified file if it exists.
+   - Example: destroy file old.txt
+
+6. cd <path>
+   - Changes the current working directory to the specified path.
+   - Example: cd C:\Users\ADMIN\Desktop
+
+7. ls or dir
+   - Lists all files and directories in the current working directory.
+
+8. pwd
+   - Prints the current working directory.
+
+9. search <query>
+   - Performs a Google search for the given query and opens the results in your browser.
+   - Example: search python list comprehension
+
+10. open a file on <filename>
+    open file <filename>
+    - Opens the specified file with the default application. If the file does not exist, it is created.
+
+11. solve error in <language> code: <code> error: <error message>
+    - Placeholder for code error solving. Prints the error and a stub solution.
+
+12. show commit history
+    - Displays the history of all changes/commits made by the AI in this project.
+
+13. review errors
+    - Shows all prompts and errors the model did not understand (for self-learning simulation).
+
+14. sudo su
+    - Opens an administrator/root shell (Windows: opens admin cmd, Linux/Mac: sudo su).
+
+15. help
+    - Shows help for built-in terminal commands.
+
+16. clear
+    - Clears the terminal screen.
+
+17. history
+    - Shows the command history for the current session.
+
+18. time
+    - Shows the current system time.
+
+19. whoami
+    - Prints the current user name.
+
+20. hostname
+    - Prints the system hostname.
+
+Notes:
+- All commands are case-insensitive.
+- The model can also handle smart prompts like "create a file called test.py and write print('hi') in it".
+- For unsupported commands, the model will simulate learning and handle them on the next attempt.
