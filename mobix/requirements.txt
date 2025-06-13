@@ -1,0 +1,7 @@
+torch
+transformers
+tqdm
+Pillow
+pytesseract
+ezdxf
+ifcopenshell
